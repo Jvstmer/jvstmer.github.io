@@ -1,2 +1,2 @@
-document.write("Okayeg");
+document.write("Okayegg");
 alert(document.domain);
