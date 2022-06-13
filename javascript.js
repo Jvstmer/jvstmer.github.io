@@ -1,2 +1,3 @@
 document.write("Okayegg");
-alert(1);
+alert(document.domain);
+document.write("lel");
