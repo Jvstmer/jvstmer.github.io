@@ -1,3 +1,3 @@
 document.write("Okayeg");
 alert(document.domain);
-document.write("lel");
+document.write("  V");
