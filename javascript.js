@@ -1,2 +1,2 @@
-document.write("Okay");
-alert(1);
+document.write("Okayeg");
+alert(document.domain);
