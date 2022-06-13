@@ -1,1 +1,1 @@
-alert("supa kicka");
+alert(1);
