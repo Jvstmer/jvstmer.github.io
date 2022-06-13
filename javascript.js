@@ -1,2 +1,2 @@
-document.write("Okayeg");
+document.write("Okay");
 alert(1);
