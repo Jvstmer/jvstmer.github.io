@@ -14,7 +14,7 @@ function cors() {
   xhttp.onreadystatechange = function() {
     if (this.status == 200) {
       alert(this.responseText);
-      document.getElementById("demo").innerHTML = this.responseText;
+      document.getElementById("report").innerHTML = this.responseText;
     }
 };
 xhttp.open("GET", "https://www.redacted.com/api/return", true);
