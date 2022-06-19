@@ -11,7 +11,7 @@ function reqListener() {
 */
 
 function cors() {
-  document.getElementById("report").innerHTML = alert("Sadeg");
+  document.getElementById("report").innerHTML = alert("Sad");
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if (this.status == 200) {
