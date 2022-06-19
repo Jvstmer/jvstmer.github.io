@@ -12,9 +12,10 @@ function reqListener() {
 
 function cors() {
   var xhr = new XMLHttpRequest();
+  document.getElementById("report").innerHTML = "Sadeg";
   xhr.onreadystatechange = function() {
     if (this.status == 200) {
-      document.getElementById("report").innerHTML = "this.responseText";
+      document.getElementById("report").innerHTML = this.responseText;
     }
   };
   xhr.open("GET", "https://livestream.com/", true);
