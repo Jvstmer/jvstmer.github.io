@@ -10,11 +10,13 @@ function reqListener() {
 */
 
 function cors() {
-  document.getElementById("report").innerHTML = alert("Eg");
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if (this.status == 200) {
       document.getElementById("report").innerHTML = alert(this.responseText);
+    }
+    else{
+      document.getElementById("report").innerHTML = "Error";
     }
   };
   xhr.open("GET", "https://livestream.com/", true);
