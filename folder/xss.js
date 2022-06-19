@@ -1,5 +1,4 @@
-/*
-var req = new XMLHttpRequest();
+/*var req = new XMLHttpRequest();
 req.onload = reqListener;
 req.open('get','https://btc-exchange/api/requestApiKey',true);
 req.withCredentials = true;
@@ -11,8 +10,8 @@ function reqListener() {
 */
 
 function cors() {
+  document.getElementById("report").innerHTML = alert("Eg");
   var xhr = new XMLHttpRequest();
-  document.getElementById("report").innerHTML = alert("Sadeg");
   xhr.onreadystatechange = function() {
     if (this.status == 200) {
       document.getElementById("report").innerHTML = alert(this.responseText);
