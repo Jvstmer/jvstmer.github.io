@@ -11,10 +11,12 @@ function reqListener() {
 */
 
 function cors() {
-  var xhr = new XMLHttpRequest();
+  alert("Sadeg");
   document.getElementById("report").innerHTML = "Sadeg";
+  var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if (this.status == 200) {
+      alert(this.responseText);
       document.getElementById("report").innerHTML = this.responseText;
     }
   };
