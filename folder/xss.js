@@ -16,7 +16,6 @@ function cors() {
   xhr.onreadystatechange = function() {
     if (this.status == 200) {
       document.getElementById("report").innerHTML = alert(this.responseText);
-
     }
   };
   xhr.open("GET", "https://livestream.com/", true);
