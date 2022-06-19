@@ -19,7 +19,7 @@ function cors() {
       document.getElementById("report").innerHTML = "Error";
     }
   };
-  xhr.open("GET", "https://livestream.com/", true);
+  xhr.open("GET", "https://livestream.com", true);
   //xhr.withCredentials = true;
   xhr.send();
 }
