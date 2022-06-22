@@ -10,6 +10,7 @@ function reqListener() {
 */
 
 function cors() {
+  document.getElementById('report').innerHTML= document.domain + ' * ';
   var xhr = new XMLHttpRequest();
   xhr.onload = function() {
       document.getElementById('report').innerHTML = this.responseText;
