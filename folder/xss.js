@@ -9,7 +9,7 @@ function reqListener() {
 };
 */
 
-function cors() {    
+function cors() {
   var xhr = new XMLHttpRequest();
   xhr.onload = function() {
       document.getElementById('report').innerHTML = this.responseText;
