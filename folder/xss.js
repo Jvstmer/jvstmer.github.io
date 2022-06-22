@@ -9,9 +9,7 @@ function reqListener() {
 };
 */
 
-function cors() {
-  alert("Okayeg");
-        document.getElementById('report').innerHTML = "this.responseText";
+function cors() {    
   var xhr = new XMLHttpRequest();
   xhr.onload = function() {
       document.getElementById('report').innerHTML = this.responseText;
