@@ -10,7 +10,8 @@ function reqListener() {
 */
 
 function cors() {
-  alert("Okayeg")
+  alert("Okayeg");
+        document.getElementById('report').innerHTML = document.write("this.responseText");
   var xhr = new XMLHttpRequest();
   xhr.onload = function() {
       alert(this.responseText);
